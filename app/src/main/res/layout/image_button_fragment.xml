@@ -1,13 +1,120 @@
-<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
-             xmlns:tools="http://schemas.android.com/tools"
-             android:layout_width="match_parent"
-             android:layout_height="match_parent"
-             tools:context="com.example.boxnif.boxosocial.ImageButtonFragment">
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              xmlns:app="http://schemas.android.com/apk/res-auto"
+              xmlns:tools="http://schemas.android.com/tools"
+              android:layout_width="match_parent"
+              android:layout_height="wrap_content"
+              android:orientation="vertical"
+              tools:context="com.example.boxnif.boxosocial.ImageButtonFragment">
 
-    <!-- TODO: Update blank fragment layout -->
-    <TextView
+    <LinearLayout
+        android:id="@+id/llh1"
         android:layout_width="match_parent"
-        android:layout_height="match_parent"
-        android:text="@string/hello_blank_fragment"/>
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
 
-</FrameLayout>
+        <ImageButton
+            android:id="@+id/ibi1"
+            android:layout_width="75dp"
+            android:layout_height="75dp"
+            android:layout_marginLeft="30dp"
+            android:backgroundTint="@android:color/background_light"
+            android:scaleType="fitStart"
+            app:srcCompat="@drawable/rubix"/>
+
+        <ImageButton
+            android:id="@+id/ibi2"
+            android:layout_width="75dp"
+            android:layout_height="75dp"
+            android:layout_marginLeft="30dp"
+            android:backgroundTint="@android:color/background_light"
+            android:scaleType="centerCrop"
+            app:srcCompat="@drawable/wolf"/>
+
+        <ImageButton
+            android:id="@+id/ibi3"
+            android:layout_width="75dp"
+            android:layout_height="75dp"
+            android:layout_marginLeft="30dp"
+            android:backgroundTint="@android:color/background_light"
+            android:scaleType="centerCrop"
+            app:srcCompat="@drawable/cat"/>
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/llh2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <ImageButton
+            android:id="@+id/ibi4"
+            android:layout_width="75dp"
+            android:layout_height="75dp"
+            android:layout_marginLeft="30dp"
+            android:backgroundTint="@android:color/background_light"
+            android:scaleType="fitStart"
+            app:srcCompat="@drawable/rubix"/>
+
+        <ImageButton
+            android:id="@+id/ibi5"
+            android:layout_width="75dp"
+            android:layout_height="75dp"
+            android:layout_marginLeft="30dp"
+            android:backgroundTint="@android:color/background_light"
+            android:scaleType="centerCrop"
+            app:srcCompat="@drawable/wolf"/>
+
+        <ImageButton
+            android:id="@+id/ibi6"
+            android:layout_width="75dp"
+            android:layout_height="75dp"
+            android:layout_marginLeft="30dp"
+            android:backgroundTint="@android:color/background_light"
+            android:scaleType="centerCrop"
+            app:srcCompat="@drawable/cat"/>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/llh3"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <ImageButton
+            android:id="@+id/ibi7"
+            android:layout_width="75dp"
+            android:layout_height="75dp"
+            android:layout_marginLeft="30dp"
+            android:backgroundTint="@android:color/background_light"
+            android:scaleType="fitStart"
+            app:srcCompat="@drawable/rubix"/>
+
+        <ImageButton
+            android:id="@+id/ibi8"
+            android:layout_width="75dp"
+            android:layout_height="75dp"
+            android:layout_marginLeft="30dp"
+            android:backgroundTint="@android:color/background_light"
+            android:scaleType="centerCrop"
+            app:srcCompat="@drawable/wolf"/>
+
+        <ImageButton
+            android:id="@+id/ibi9"
+            android:layout_width="75dp"
+            android:layout_height="75dp"
+            android:layout_marginLeft="30dp"
+            android:backgroundTint="@android:color/background_light"
+            android:scaleType="centerCrop"
+            app:srcCompat="@drawable/cat"/>
+
+    </LinearLayout>
+
+    <ImageButton
+        android:id="@+id/closeButton1"
+        android:layout_width="match_parent"
+        android:layout_height="31dp"
+        android:layout_weight="1"
+        android:background="@android:color/background_light"
+        app:srcCompat="@drawable/ic_expand_less_black_18dp"/>
+</LinearLayout>
